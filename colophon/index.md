@@ -3,7 +3,7 @@ title: "Made with 💙"
 date: "2023-02-13"
 ---
 
-## Made with [![quarto](https://quarto.org/quarto.png){style="max-height:1em;vertical-align:sub;"}](https://quarto.org)
+## Inspired by [Garrick Aden-Buie](https://github.com/gadenbuie/garrickadenbuie-com) Made with [![quarto](https://quarto.org/quarto.png){style="max-height:1em;vertical-align:sub;"}](https://quarto.org)
 
 Made with
 <span
@@ -48,11 +48,10 @@ by
 and was powered by [blogdown](https://pkgs.rstudio.com/blogdown/)
 and built by [Hugo](http://gohugo.io/).
 
-The source for this blog can be found online at <a href="https://github.com/gadenbuie/garrickadenbuie-com"><i class="fab fa-github"><span class="sr-only">GitHub</span></i> gadenbuie/garrickadenbuie-com</a>.
+The original source for this blog can be found online at <a href="https://github.com/gadenbuie/garrickadenbuie-com"><i class="fab fa-github"><span class="sr-only">GitHub</span></i> gadenbuie/garrickadenbuie-com</a>.
 
 ## `/uses/garrick`
 
-I don't have a [/uses](https://uses.tech/) page (yet!), but I did live tweet and blog about my [MacBook Pro setup](/blog/setting-up-a-new-macbook-pro/). That should get you pretty close to a full accounting of the software and tools I use on a daily basis.
 
 ## License
 

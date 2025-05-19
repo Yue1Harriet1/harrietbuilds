@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Yue Harriet Huang</title>
+<link>https://www.garrickadenbuie.com/podcast/</link>
+<atom:link href="https://www.garrickadenbuie.com/podcast/index.xml" rel="self" type="application/rss+xml"/>
+<description>Presentations, talks, and workshops.
+</description>
+<generator>quarto-1.7.30</generator>
+<lastBuildDate>Sat, 01 Jun 2024 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Achieving Concurrency in Streamlit with a RQ scheduler, Building Responsive Data Applications</title>
+  <dc:creator>Yue Harriet Huang</dc:creator>
+  <link>https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<blockquote class="blockquote">
+<p>With increasing adoption of Streamlit to create interactive data applications in the usage of generative AI technologies, a challenge of maintaining responsiveness under heavy or concurrent user interactions has emerged as applications grow in complexity, sometimes with a long-running background job. This is where integrating task queueing systems like Redis Queue (RQ) into Streamlit applications can come in handy.</p>
+<p>In this talk, we will explore how we can enable this integration between RQ and Streamlit to achieve concurrency, improve user experiences and effectively manage long-running tasks.</p>
+</blockquote>
+
+
+</section>
+
+ ]]></description>
+  <category>Conference</category>
+  <guid>https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/</guid>
+  <pubDate>Sat, 01 Jun 2024 04:00:00 GMT</pubDate>
+  <media:content url="https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/feature.png" medium="image" type="image/png" height="372" width="144"/>
+</item>
+</channel>
+</rss>

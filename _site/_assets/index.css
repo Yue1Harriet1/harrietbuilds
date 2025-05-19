@@ -73,6 +73,7 @@
     }
   }
 
+  /* regular h
   @-webkit-keyframes animate-svg-fill-1 {
     0% {
       fill: var(--bs-body-bg);
@@ -91,12 +92,50 @@
     100% {
       fill: var(--bs-primary);
     }
-  }
+  }*/
 
-  .site-logo .site-brand-letter-g-1 {
+  /*animated regular h stroke
+  .site-logo .site-brand-letter-h-1 {
     -webkit-animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
                         animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
             animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
                 animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both;
+  }*/
+
+  .site-logo .site-brand-letter-h-1 {
+    -webkit-animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
+                        animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
+                        animate-svg-cursive-h 0.5s ease-out 2s forwards;
+            animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
+                        animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
+                        animate-svg-cursive-h 0.5s ease-out 2s forwards;
+    transform-origin: center;
+    font-family: 'Brush Script MT', cursive;
+    font-style: italic;
+    transform: skewX(-15deg);
+  }
+
+  @keyframes animate-svg-cursive-h {
+    0% {
+      transform: skewX(-15deg) scale(1);
+    }
+    50% {
+      transform: skewX(-15deg) scale(1.1) rotate(2deg);
+    }
+    100% {
+      transform: skewX(-15deg) scale(1) rotate(0deg);
+    }
+  }
+
+  @-webkit-keyframes animate-svg-cursive-h {
+    0% {
+      transform: skewX(-15deg) scale(1);
+    }
+    50% {
+      transform: skewX(-15deg) scale(1.1) rotate(2deg);
+    }
+    100% {
+      transform: skewX(-15deg) scale(1) rotate(0deg);
+    }
   }
 }

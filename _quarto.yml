@@ -5,6 +5,7 @@ project:
     - "*.md"
     - "blog/**/*.qmd"
     - "talk/**/*.qmd"
+    - "podcast/**/*.qmd"
     - "project/**/*.qmd"
     - "about/index.*md"
     - "colophon/index.*md"
@@ -13,9 +14,9 @@ project:
     - "cp -r static/. _site/"
 
 website:
-  title: "Garrick Aden-Buie"
-  site-url: https://www.garrickadenbuie.com
-  repo-url: https://github.com/gadenbuie/garrickadenbuie-com
+  title: "Yue Harriet Huang"
+  site-url: www.google.ca
+  repo-url: https://github.com/Yue1Harriet1/harrietbuilds
   repo-actions:
     - source
     - edit
@@ -27,7 +28,7 @@ website:
     image: social-default.png
   open-graph: true
   navbar:
-    title: garrick
+    title: harriet
     background: light
     right:
       - text: blog
@@ -36,28 +37,23 @@ website:
         href: project/index.qmd
       - text: talks
         href: talk/index.qmd
+      - text: podcasts
+        href: podcast/index.qmd
       - text: about
         href: about/index.qmd
       - icon: github
-        href: https://github.com/gadenbuie
-      - icon: mastodon
-        href: https://fosstodon.org/@grrrck
+        href: https://github.com/Yue1Harriet1
   page-footer:
     border: false
     background: light
     left: >-
-       © {{< now year >}} Garrick Aden-Buie
+       © {{< now year >}} Yue Harriet Huang
     right: >-
-      <a class="link-dark me-1" href="/colophon">Made with 💙</a>
+      <a class="link-dark me-1" href="/colophon">Inspired by [Garrick Aden-Buie](https://github.com/gadenbuie/garrickadenbuie-com) Made with 💙</a>
       <a class="link-dark" href="/blog/index.xml" title = "RSS feed"><i class="bi bi-rss-fill"><span class="visually-hidden">RSS feed</span></i></a>
     center: >-
-      <a class="link-dark" href="https://bsky.app/profile/grrrck.xyz" title="bluesky" target="_blank" rel="noopener">{{< fa brands bluesky >}}</a>
-      <a class="link-dark" href="https://fosstodon.org/@grrrck" title="mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
-      <a class="link-dark" href="https://github.com/gadenbuie" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-      <a class="link-dark" href="https://gadenbuie.r-universe.dev" title="r-project" target="_blank" rel="noopener">{{< fa brands r-project >}}</a>
-      <a class="link-dark" href="https://keybase.io/grrrck" title="keybase" target="_blank" rel="noopener">{{< fa brands keybase >}}</a>
-      <a class="link-dark" href="https://garrickadenbuie.bandcamp.com" title="bandcamp" target="_blank" rel="noopener">{{< fa brands bandcamp >}}</a>
-      <a class="link-dark" href="http://orcid.org/0000-0002-7111-0077" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark" href="https://www.youtube.com/@harrietanalytics" title="youtube" target="_blank" rel="noopener">{{< fa brands youtube >}}</a>
+      <a class="link-dark" href="https://github.com/Yue1Harriet1" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
 
 format:
   html:
