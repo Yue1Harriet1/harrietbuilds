@@ -105,37 +105,68 @@
   .site-logo .site-brand-letter-h-1 {
     -webkit-animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
                         animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
-                        animate-svg-cursive-h 0.5s ease-out 2s forwards;
+                        animate-svg-flourish-h 0.5s ease-out 2s forwards;
             animation: animate-svg-stroke-1 1.5s cubic-bezier(0.6, 0.04, 0.98, 0.335) 0s both,
                         animate-svg-fill-1 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s both,
-                        animate-svg-cursive-h 0.5s ease-out 2s forwards;
+                        animate-svg-flourish-h 0.5s ease-out 2s forwards;
     transform-origin: center;
-    font-family: 'Brush Script MT', cursive;
-    font-style: italic;
-    transform: skewX(-15deg);
   }
 
-  @keyframes animate-svg-cursive-h {
+  /* Animation for the main letter H */
+  @keyframes animate-svg-flourish-h {
     0% {
-      transform: skewX(-15deg) scale(1);
+      transform: scale(1);
     }
     50% {
-      transform: skewX(-15deg) scale(1.1) rotate(2deg);
+      transform: scale(1.05) rotate(1deg);
     }
     100% {
-      transform: skewX(-15deg) scale(1) rotate(0deg);
+      transform: scale(1) rotate(0deg);
     }
   }
 
-  @-webkit-keyframes animate-svg-cursive-h {
+  @-webkit-keyframes animate-svg-flourish-h {
     0% {
-      transform: skewX(-15deg) scale(1);
+      transform: scale(1);
     }
     50% {
-      transform: skewX(-15deg) scale(1.1) rotate(2deg);
+      transform: scale(1.05) rotate(1deg);
     }
     100% {
-      transform: skewX(-15deg) scale(1) rotate(0deg);
+      transform: scale(1) rotate(0deg);
+    }
+  }
+
+  /* Animation for the decorative flourishes */
+  .site-logo .flourish {
+    -webkit-animation: animate-svg-flourish-appear 0.5s ease-out 2s forwards;
+            animation: animate-svg-flourish-appear 0.5s ease-out 2s forwards;
+    opacity: 0;
+  }
+
+  @keyframes animate-svg-flourish-appear {
+    0% {
+      opacity: 0;
+      stroke-dashoffset: 30;
+      stroke-dasharray: 30;
+    }
+    100% {
+      opacity: 0.8;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 30;
+    }
+  }
+
+  @-webkit-keyframes animate-svg-flourish-appear {
+    0% {
+      opacity: 0;
+      stroke-dashoffset: 30;
+      stroke-dasharray: 30;
+    }
+    100% {
+      opacity: 0.8;
+      stroke-dashoffset: 0;
+      stroke-dasharray: 30;
     }
   }
 }
