@@ -6,8 +6,8 @@
       version="2.0">
 <channel>
 <title>Yue Harriet Huang</title>
-<link>https://www.garrickadenbuie.com/podcast/</link>
-<atom:link href="https://www.garrickadenbuie.com/podcast/index.xml" rel="self" type="application/rss+xml"/>
+<link>www.google.ca/podcast/</link>
+<atom:link href="www.google.ca/podcast/index.xml" rel="self" type="application/rss+xml"/>
 <description>Presentations, talks, and workshops.
 </description>
 <generator>quarto-1.7.30</generator>
@@ -15,7 +15,7 @@
 <item>
   <title>Achieving Concurrency in Streamlit with a RQ scheduler, Building Responsive Data Applications</title>
   <dc:creator>Yue Harriet Huang</dc:creator>
-  <link>https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/</link>
+  <link>www.google.ca/podcast/bslib-modern-dashboards/</link>
   <description><![CDATA[ 
 
 
@@ -34,9 +34,9 @@
 
  ]]></description>
   <category>Conference</category>
-  <guid>https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/</guid>
+  <guid>www.google.ca/podcast/bslib-modern-dashboards/</guid>
   <pubDate>Sat, 01 Jun 2024 04:00:00 GMT</pubDate>
-  <media:content url="https://www.garrickadenbuie.com/podcast/bslib-modern-dashboards/feature.png" medium="image" type="image/png" height="372" width="144"/>
+  <media:content url="www.google.ca/podcast/bslib-modern-dashboards/feature.png" medium="image" type="image/png" height="372" width="144"/>
 </item>
 </channel>
 </rss>

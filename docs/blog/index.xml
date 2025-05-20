@@ -22,6 +22,14 @@
 
 
 
+<section id="how-does-it-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-it-work">How does it work</h2>
+<ul>
+<li>storage database: GitHub repository</li>
+<li>install <a href="https://github.com/apps/giscus">Giscus</a> app to your GitHub repository</li>
+<li>enable <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository">discussion feature</a> in your repo</li>
+</ul>
+</section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <p><a href="https://pilgaard-blog.azurewebsites.net/posts/making-a-blog/5-adding-comments">Adding Comments</a></p>

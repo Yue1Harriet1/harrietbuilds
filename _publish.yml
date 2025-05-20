@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "e59b963c-e3ea-479f-9af4-b23bc7775c38"
+      url: "https://benevolent-medovik-ca86ce.netlify.app/"

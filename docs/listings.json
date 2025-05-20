@@ -1,8 +1,8 @@
 [
   {
-    "listing": "/project/index.html",
+    "listing": "/blog/index.html",
     "items": [
-      "/project/cleanrmd/index.html"
+      "/blog/llm-work-summary/index.html"
     ]
   },
   {
@@ -15,21 +15,21 @@
     ]
   },
   {
-    "listing": "/talk/index.html",
-    "items": [
-      "/talk/bslib-modern-dashboards/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/llm-work-summary/index.html"
-    ]
-  },
-  {
     "listing": "/podcast/index.html",
     "items": [
       "/podcast/bslib-modern-dashboards/index.html"
+    ]
+  },
+  {
+    "listing": "/project/index.html",
+    "items": [
+      "/project/cleanrmd/index.html"
+    ]
+  },
+  {
+    "listing": "/talk/index.html",
+    "items": [
+      "/talk/bslib-modern-dashboards/index.html"
     ]
   }
 ]

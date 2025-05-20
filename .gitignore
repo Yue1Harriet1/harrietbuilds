@@ -22,3 +22,6 @@ _*/
 /.quarto/
 
 /.luarc.json
+
+/docs/
+/_site/
